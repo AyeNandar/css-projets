@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#a{
+	list-style-type: none;
+	margin: 100px 0px 0px 200px;
+
+
+}
+li{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	background-color: blue;
+	line-height: 40px;
+	display: inline-block;
+
+
+}
+a{
+	text-decoration: none;
+	color: white;
+	display: block;
+
+}
+#bb{
+	display: none;
+	position: absolute;
+
+}
+li:hover{
+	
+	background-color: green;
+}
+a:hover{
+	color: orange;
+
+}
+.bb:hover>#bb{
+	display: block;
+}
+
+.bb:hover>#bb li{
+	display: block;
+	position: absolute;
+}

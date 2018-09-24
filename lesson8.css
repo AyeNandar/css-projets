@@ -1,0 +1,48 @@
+.aa{
+	text-decoration: none;
+	color: black;
+
+}
+#container:target{
+	display: block;
+}
+
+#container{
+	width: 1200px;
+	height: 1000px;
+	margin: 0px auto;
+	background-color: gray;
+	display: none;
+}
+.container1{
+	width: 800px;
+	height: 180px;
+	position: absolute;
+	left: 300px;
+	top: 300px;
+
+}
+.head,foot{
+	width: 800px;
+	height: 50px;
+	background-color: blue;
+	box-sizing: border-box;
+
+
+}
+.close{
+	color: white;
+	text-decoration: none;
+	float: right;
+	padding-right: 20px;
+	font-size: 20px;
+
+}
+.body{
+	width: 800px;
+	height: 80px;
+	background-color: white;
+	color: blue;
+	padding:5px ;
+	box-sizing: border-box;
+}
